@@ -11,9 +11,33 @@
 // }
 
 #container {
-  width: 40%;
+  width: 10%;
   box-shadow: 5px 5px 6px rgb(134, 90, 8);
   border-radius: 10px;
   background-color: white;
-  margin-left: 800px;
+  margin-left: 100px;
+}
+
+.btn-block {
+  width: 300px;
+}
+
+.firstitem {
+  margin-left: 2px;
+  margin-right: 60px;
+  font-size: smaller;
+}
+
+.seconditem {
+  margin-left: 2px;
+  margin-right: 4px;
+  font-size: smaller;
+}
+
+.login {
+  margin-left: 50px;
+  .newcustomer {
+    margin-left: 50px;
+    font-size: smaller;
+  }
 }

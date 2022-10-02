@@ -31,10 +31,30 @@
             </div>
             <div class="signin">
                 <!-- <button class="btn btn-outline-secondary" (click)="routelogin()">Hello,Sign in</button> -->
-                <button class="btn btn-outline-secondary" (mouseover)="show=true">Hello,Sign
-                    in</button>
-            </div>
+                <!-- <button class="btn btn-outline-secondary" (click)="showLogin()">Hello,Sign
+                    in</button> -->
+                <!-- <button class="btn btn-outline-secondary" (click)="openDialog()">Hello,Sign
+                    in</button> -->
+                <!-- <button class="btn btn-outline-secondary" [popover]="popTemplate" [outsideClick]="true"
+                    [adaptivePosition]="false" popoverTitle="Popover on bottom" container="body" [placement]="'bottom'">
+                    Hello,Sign in
+                </button> -->
+                <div class="dropdown">
+                    <button class="btn  btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Hello,Sign in
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-center">
+                        <div class="loginform">
+                            <div class="form-group">
+                                <app-login></app-login>
+                            </div>
+                        </div>
 
+
+
+                    </ul>
+                </div>
+            </div>
             <div class="returnsorders">
                 <button class="btn btn-outline-secondary" aria-current="page" href="#">Return,Orders</button>
             </div>
@@ -46,4 +66,8 @@
         </div>
     </div>
 </nav>
-<app-login [show]="show"></app-login>
+<!-- <app-login [show]="show"></app-login> -->
+
+<!-- <ng-template #popTemplate>
+    <app-login></app-login>
+</ng-template> -->

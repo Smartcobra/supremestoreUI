@@ -1,12 +1,32 @@
-<div id="container" *ngIf="show" (mouseout)="show=false">
-    <div class="card">
-        <div class="card-header">
-            <button class="btn btn-warning btn-block">Sign in</button>
-            <p>new customer start here</p>
+<!-- <div id="container" *ngIf="show" (click)="$event.stopPropagation()"> -->
+
+<div class="container">
+    <div class="login">
+        <button class="btn btn-warning btn-block" (click)="redirect()">Sign in</button>
+        <p class="newcustomer">
+            New Customer? login here;
+        </p>
+    </div>
+
+
+    <div class="dropdown-divider"></div>
+    <div class="d-flex" style="height: 200px;">
+        <div class="firstitem">Your Lists
+            <div>Wish from Any Website</div>
+            <div>Explore Showroom</div>
+            <div>Discover Your Style</div>
         </div>
-        <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="vr"></div>
+        <div class="seconditem">Your Account
+            <div>Your Wish List</div>
+            <div>Your Recommendations</div>
+            <div>Your Prime Video</div>
+            <div>Your Prime Membership</div>
+            <div>Your Subscribe & Save Items</div>
+            <div>Memberships & Subscriptions</div>
+            <div>Your Amazon Business Account</div>
+            <div>Your Seller Account</div>
+            <div>Your Orders</div>
         </div>
     </div>
 </div>

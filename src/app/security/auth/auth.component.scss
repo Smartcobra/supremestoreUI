@@ -1,0 +1,53 @@
+.me-auto {
+  margin-right: 70px !important;
+}
+
+// .form-control {
+//   width: 350% !important;
+// }
+
+.container {
+  margin-top: 5%;
+}
+/* Style to create scroll bar in dropdown */
+.scrollable-dropdown {
+  height: auto;
+  max-height: 320px; /* Increase / Decrease value as per your need */
+  overflow-x: hidden;
+}
+
+.searchwidth {
+  width: 800px;
+}
+
+.signin {
+  padding-left: 40px;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.returnsorders {
+  padding-left: 10px;
+}
+
+.btn-outline-secondary {
+  color: white;
+}
+
+.loginform {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+
 import { Router } from '@angular/router';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -13,13 +15,12 @@ export class HomeComponent implements OnInit {
   search = faMagnifyingGlass;
   show!: boolean;
 
-  constructor(private router: Router) {
+  constructor(
+    private router: Router,
+    private dialog: MatDialog //private snackBar: MatSnackBar
+  ) {
     this.show = false;
   }
 
   ngOnInit(): void {}
-
-  loginModal() {
-    this.router.navigateByUrl('/login');
-  }
 }

@@ -1,1 +1,54 @@
-<p>auth works!</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">SupremeStore.in</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Hello</a>
+                </li>
+            </ul>
+
+            <div class="input-group searchwidth ">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">All</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="button" id="button-addon2">
+                    <fa-icon [icon]="search"></fa-icon>
+                </button>
+            </div>
+            <div class="signin">
+
+                <button class="btn  btn-outline-secondary " type="button">
+                    Hello
+                </button>
+
+            </div>
+            <div class="returnsorders">
+                <button class="btn btn-outline-secondary" aria-current="page" href="#">Return,Orders</button>
+            </div>
+            <div class="returnsorders">
+                <button class="btn btn-outline-secondary" aria-current="page" href="#">
+                    <fa-icon [icon]="facart"></fa-icon>Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- <app-login [show]="show"></app-login> -->
+
+<!-- <ng-template #popTemplate>
+    <app-login></app-login>
+</ng-template> -->

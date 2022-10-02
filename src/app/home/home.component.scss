@@ -35,3 +35,19 @@
 .btn-outline-secondary {
   color: white;
 }
+
+.loginform {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
