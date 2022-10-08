@@ -6,12 +6,19 @@ import { LoginComponent } from './security/login/login.component';
 
 const routes: Routes = [
   {
-    path: 'auth',
+    path: 'authorized',
     loadChildren: () =>
       import('src/app/security/security.module').then((m) => m.SecurityModule),
   },
+  {
+    path: 'user',
+    loadChildren: () =>
+      import('src/app/user-home/user-home.module').then(
+        (m) => m.UserHomeModule
+      ),
+  },
+  { path: 'home', component: HomeComponent },
   { path: '', component: HomeComponent },
-  { path: 'login', component: LoginComponent, pathMatch: 'full' },
 ];
 
 @NgModule({

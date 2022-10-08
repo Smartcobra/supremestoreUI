@@ -1,0 +1,116 @@
+.me-auto {
+  margin-right: 70px !important;
+}
+
+// .form-control {
+//   width: 350% !important;
+// }
+
+.container {
+  margin-top: 5%;
+}
+/* Style to create scroll bar in dropdown */
+.scrollable-dropdown {
+  height: auto;
+  max-height: 320px; /* Increase / Decrease value as per your need */
+  overflow-x: hidden;
+}
+
+.searchwidth {
+  width: 800px;
+}
+
+.signin {
+  padding-left: 40px;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.returnsorders {
+  padding-left: 10px;
+}
+
+.btn-outline-secondary {
+  color: white;
+}
+
+.loginform {
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+#container {
+  width: 10%;
+  box-shadow: 5px 5px 6px rgb(134, 90, 8);
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 100px;
+}
+
+.btn-block {
+  width: 300px;
+}
+
+.firstitem {
+  margin-left: 2px;
+  margin-right: 60px;
+  font-size: smaller;
+}
+
+.seconditem {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: smaller;
+}
+
+.login {
+  margin-left: 50px;
+  .newcustomer {
+    margin-left: 50px;
+    font-size: smaller;
+  }
+}
+
+.float-container {
+  height: 10px;
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  margin-right: 100px;
+}
+
+.card-text {
+  font-size: smaller;
+}
+
+#dropdown-menu {
+  background-color: none;
+  border-color: none;
+}
+
+.dropdown-menu-dark {
+  font-size: smaller;
+}
+
+.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}

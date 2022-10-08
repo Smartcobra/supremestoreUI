@@ -10,16 +10,19 @@ import { Buffer } from 'buffer';
 })
 export class AuthService {
   public code: string = '';
+
   constructor(private httpService: HttpService) {}
 
   getToken() {
+    console.log('get token');
     const mockUserClient = 'client';
-    const mockUserSecret = 'secret';
+    const mockUserSecret = 'password';
     const basicAuth =
       `Basic ` +
       Buffer.from(`${mockUserClient}:${mockUserSecret}`).toString('base64');
     const headers = new HttpHeaders({
       'content-type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
       Authorization: basicAuth,
     });
     const options = {
