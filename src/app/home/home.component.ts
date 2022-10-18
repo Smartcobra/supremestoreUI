@@ -14,6 +14,10 @@ export class HomeComponent implements OnInit {
   facart = faShoppingCart;
   search = faMagnifyingGlass;
   show!: boolean;
+  prevBtn: any;
+  nextBtn: any;
+  dots: any;
+  slideIndex = 1;
 
   constructor(
     private router: Router,
