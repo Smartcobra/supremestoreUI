@@ -3,5 +3,5 @@
 // };
 
 export const userNameUrl = () => {
-  return 'http://127.0.0.1:8083/v1/api/user/username';
+  return 'http://127.0.0.1:8083/v1/api/user/username/';
 };

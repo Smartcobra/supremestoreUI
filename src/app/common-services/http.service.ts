@@ -14,4 +14,7 @@ export class HttpService {
   doGet(url: string, options: { headers: HttpHeaders }) {
     return this.httpClient.get(url, options);
   }
+  public sendGetRequest(url: string, headers: { headers: HttpHeaders }) {
+    return this.httpClient.get(url, headers);
+  }
 }

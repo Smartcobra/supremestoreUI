@@ -14,7 +14,7 @@ export class AuthService {
   constructor(private httpService: HttpService) {}
 
   getToken() {
-    console.log('get token');
+    /// console.log('get token');
     const mockUserClient = 'client';
     const mockUserSecret = 'password';
     const basicAuth =
